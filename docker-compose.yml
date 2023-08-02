@@ -1,0 +1,14 @@
+version: "3"
+services:
+  pyspark:
+    image: jupyter/pyspark-notebook
+    hostname: &name pyspark
+    container_name: *name
+    ports:
+      - 8888:8888
+      - 4040:4040
+      - 4041:4041
+    volumes:
+      - ./src/graphs.ipynb:/home/jovyan/work/graphs.ipynb
+    environment:
+      - NOTEBOOK_ARGS=--NotebookApp.token='' --NotebookApp.password=''
