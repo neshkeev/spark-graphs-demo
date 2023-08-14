@@ -9,6 +9,7 @@ services:
       - 4040:4040
       - 4041:4041
     volumes:
-      - ./src/graphs.ipynb:/home/jovyan/work/graphs.ipynb
+      - ./src/pregel.ipynb:/home/jovyan/work/pregel.ipynb
+      - ./src/helper.py:/home/jovyan/work/helper.py
     environment:
       - NOTEBOOK_ARGS=--NotebookApp.token='' --NotebookApp.password=''
