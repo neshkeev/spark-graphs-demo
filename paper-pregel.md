@@ -55,7 +55,7 @@
 
 На картинке ниже представлено разбиение множества ребер на три непересекающихся подмножества. Так же можно заметить, что вершины 4 (красный) и 6 (синий) находятся в разных подмножествах:
 
-![Пример разбиения графа на подграфы по вершинам](https://habrastorage.org/webt/qq/re/85/qqre85jrmkttyprswcartfpkli0.png)
+![Пример разбиения графа на подграфы по вершинам](https://habrastorage.org/webt/5f/ya/v6/5fyav651xyn4tdxbdmqesewbetk.png)
 
 ![Непересекающиеся подмножества рёбер](https://habrastorage.org/webt/ek/vj/sa/ekvjsa-3ktr6isx3ly2sdjikqoa.png)
 
